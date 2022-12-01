@@ -1,0 +1,18 @@
+.mum{
+    background-color: black;
+    color: white;
+}
+
+a[ href="mailto:nkankeman@gmail.com"]{
+    color: white;
+}
+
+a[href="mailto:nkankeyan@gmail.com"]{
+    color: white;
+}
+
+a{
+    text-decoration: none;
+}
+
+

@@ -1,0 +1,74 @@
+h1{
+    text-align: center;
+    color: rgb(12, 233, 12);
+    text-shadow:6px 6px 6px rgb(21, 138, 5);
+    border: 3px rgb(0, 174, 255) solid;
+	border-radius: 20px / 10px;
+	box-shadow: 7px 7px 7px rgb(0, 183, 255);
+}
+
+#nkanke{
+    color: blue;
+    font-family: helvetical;
+}
+
+
+.cup{
+    background-color: gainsboro ;
+}
+
+
+.element{
+    width: 25%;
+    flex-wrap: wrap;
+}
+
+.element:nth-child(1){
+ flex: 1;
+}
+
+.element:nth-child(2){
+flex: 2;
+}
+
+
+#container{
+    display: flex;
+}
+
+
+p + .element{
+    margin-top: 0;
+}
+
+a:hover{
+    color: red;
+}
+
+
+a{
+    color: black;
+}
+
+.book{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    margin-left: 15%;
+}
+
+.book2 ul {
+    text-align: right;
+    list-style: none;
+}
+
+ul li{
+    display: inline;
+}
+
+.table{
+    margin-top: 30px;
+}
+
+
+
+

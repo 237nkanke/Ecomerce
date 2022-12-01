@@ -1,0 +1,29 @@
+h1{
+    color: green;
+}
+
+body{
+    padding: 10px 5px;
+    background-color: cornsilk;
+}
+
+.orange{
+    width: 80px;
+}
+
+.element{
+    width: 25%;
+    flex-wrap: wrap;
+}
+
+.element:nth-child(1){
+ flex: 1;
+}
+
+.element:nth-child(2){
+flex: 2;
+}
+
+#container{
+    display: flex;
+}
